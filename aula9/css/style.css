@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(155, 225, 245);
+    padding: 5px;
+    margin: 5px;
+}
+
+.cabecalho {
+    background-image: url("/assets/background.jpg");
+    border-style: dotted;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 100px;
+    padding-top: 80px;
+}
+
+.menu-h {
+    background-color: rgb(110, 235, 145);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.content {
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+.vertical-l {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hotpink;
+    height: 300px;
+}
+
+.vertical-r {
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: hotpink;
+    height: 300px;
+}
+
+.rodape {
+    background-color: rgb(255, 170, 130);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
